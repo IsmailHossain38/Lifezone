@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-ty*d3s!-m0-491(@ixi4h=_#xof_nw)f(#1k=7f&gcil^i#3g4'
-
+CSRF_TRUSTED_ORIGINS = ['https://lifezone.onrender.com','https://*.127.0.0.1']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
